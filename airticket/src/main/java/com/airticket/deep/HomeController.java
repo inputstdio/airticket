@@ -43,7 +43,7 @@ public class HomeController {
 	}
 	
 	private void getTime(Locale locale, Model model) {
-		logger.info("Welcome home! The client locale is {}.", locale);
+		logger.info("현재 클라이언트의 지역은 {} 입니다.", locale);
 		
 		Date date = new Date();
 		DateFormat dateFormat = DateFormat.getDateTimeInstance(DateFormat.LONG, DateFormat.LONG, locale);

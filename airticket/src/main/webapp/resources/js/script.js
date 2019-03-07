@@ -23,7 +23,6 @@ function getWeather() {
             	cityname : resp.name,
             	clouds : resp.clouds.all
             };
-            return weahter;
         },
 	    error : function(request, status, error) {
 			alert(status);
@@ -34,7 +33,7 @@ function getWeather() {
 $(document).ready(function() {	
 	$('#test').on('click', function() {
 		alert("Click");
-		getWeather();
+		var weather = getWeather();
 		return false;
 	})
 })

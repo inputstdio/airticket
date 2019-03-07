@@ -7,6 +7,6 @@
 <body>
 	<h1>Hello world!</h1>
 
-	<P>The time on the server is ${serverTime}.</P>
+	<P>현재 서버의 시간은 ${serverTime} 입니다.</P>
 </body>
 </html>
